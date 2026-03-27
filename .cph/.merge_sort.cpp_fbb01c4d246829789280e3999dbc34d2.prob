@@ -1,1 +1,0 @@
-{"name":"Local: merge_sort","url":"d:\\Problem Solving\\merge_sort.cpp","tests":[{"id":1752143449448,"input":"10\n10 50 32 45 20 31 56 22 12 79","output":"10 12 20 22 31 32 45 50 56 79 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem Solving\\merge_sort.cpp","group":"local","local":true}

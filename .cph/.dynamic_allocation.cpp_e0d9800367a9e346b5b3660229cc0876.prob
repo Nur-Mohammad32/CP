@@ -1,1 +1,0 @@
-{"name":"Local: dynamic_allocation","url":"d:\\Problem Solving\\dynamic_allocation.cpp","tests":[{"id":1748460812235,"input":"5\n1 2 3 4 5\n","output":"1 2 3 4 5"},{"id":1748461062339,"input":"7\n5 1 2 4 6 9 3\n","output":"5 1 2 4 6 9 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem Solving\\dynamic_allocation.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: pattern2","url":"d:\\Problem Solving\\pattern2.cpp","tests":[{"id":1744809178967,"input":"5","output":"5 4 3 2 1\n4 3 2 1\n3 2 1\n2 1\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem Solving\\pattern2.cpp","group":"local","local":true}
