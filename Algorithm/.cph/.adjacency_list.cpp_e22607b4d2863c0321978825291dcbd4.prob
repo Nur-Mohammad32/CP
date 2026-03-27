@@ -1,0 +1,1 @@
+{"name":"Local: adjacency_list","url":"d:\\Problem Solving\\Algorithm\\adjacency_list.cpp","tests":[{"id":1755510900278,"input":"7 7\n0 1\n1 3\n1 4\n3 2\n4 6\n3 5\n4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem Solving\\Algorithm\\adjacency_list.cpp","group":"local","local":true}

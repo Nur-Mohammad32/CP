@@ -1,0 +1,1 @@
+{"name":"Local: bellman_ford","url":"d:\\Problem Solving\\Algorithm\\bellman_ford.cpp","tests":[{"id":1756834066872,"input":"4 4\n0 1 5\n1 2 3\n2 3 2\n1 3 -6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem Solving\\Algorithm\\bellman_ford.cpp","group":"local","local":true}

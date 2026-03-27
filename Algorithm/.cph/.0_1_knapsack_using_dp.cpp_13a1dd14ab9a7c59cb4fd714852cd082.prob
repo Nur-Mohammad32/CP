@@ -1,0 +1,1 @@
+{"name":"Local: 0_1_knapsack_using_dp","url":"d:\\Problem Solving\\Algorithm\\0_1_knapsack_using_dp.cpp","tests":[{"id":1757694651196,"input":"4 \n70 80 90 200\n20 30 40 70\n60","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem Solving\\Algorithm\\0_1_knapsack_using_dp.cpp","group":"local","local":true}

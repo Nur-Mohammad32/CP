@@ -1,0 +1,20 @@
+
+{
+  "files.associations": {
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "any": "cpp",
+    "array": "cpp",
+    "fstream": "cpp",
+    "optional": "cpp",
+    "shared_mutex": "cpp",
+    "sstream": "cpp",
+    "tuple": "cpp",
+    "variant": "cpp"
+  },
+  "launch": {
+
+    "configurations": [],
+    "compounds": []
+  }
+}

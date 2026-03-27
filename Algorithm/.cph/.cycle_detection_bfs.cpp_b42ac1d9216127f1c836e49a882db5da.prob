@@ -1,0 +1,1 @@
+{"name":"Local: cycle_detection_bfs","url":"d:\\Problem Solving\\Algorithm\\cycle_detection_bfs.cpp","tests":[{"id":1756083646408,"input":"6 5\n0 1\n1 2\n2 3\n3 0\n4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem Solving\\Algorithm\\cycle_detection_bfs.cpp","group":"local","local":true}
