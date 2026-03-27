@@ -43,46 +43,37 @@ using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node
 
 void Nur_Md()
 {
-    int n, k;
-    cin >> n >> k;
+    ll x;
+    cin >> x;
 
-    vi v(n);
-    input_vector(v);
+    ll ans = -1;
 
-    auto ok = [&](long long median)
+    for (int i = 0; i < 30; i++)
     {
-        long long cnt = 0;
-        for (int i = (n / 2); i < n; i++)
+        for (int j = 0; j < 30; j++)
         {
-            cnt += (v[i] < median ? (median - v[i]) : 0);
-        }
-        return cnt <= k;
-    };
 
-    sort(all(v));
+            ll y = (1LL << i) | (1LL << j);
 
-    int l = 1, r = 2e9, mid, ans;
-    while (l <= r)
-    {
-        mid = l + (r - l) / 2;
-        if (ok(mid))
-        {
-            ans = mid;
-            l = mid + 1;
-        }
-        else
-        {
-            r = mid - 1;
+            if (y < x && x + y > (x ^ y) && y + (x ^ y) > x)
+                ans = y;
+            
         }
     }
+
     cout << ans << nl;
 }
+
 
 int main()
 {
     fast_io();
-
-    Nur_Md();
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        Nur_Md();
+    }
 
     return 0;
 }

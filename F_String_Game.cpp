@@ -43,25 +43,41 @@ using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node
 
 void Nur_Md()
 {
-    int n, k;
-    cin >> n >> k;
+    string t, p;
 
-    vi v(n);
-    input_vector(v);
+    cin >> t;
+    cin >> p;
 
-    auto ok = [&](long long median)
+    int n = t.size(), m = p.size();
+    vi a(n);
+    input_vector(a);
+
+    auto ok = [&](int mid)
     {
-        long long cnt = 0;
-        for (int i = (n / 2); i < n; i++)
+        vector<bool> bad(n + 1);
+        for_0(i, mid)
         {
-            cnt += (v[i] < median ? (median - v[i]) : 0);
+            bad[a[i]] = true;
         }
-        return cnt <= k;
+
+        int j = 0;
+        bool found = false;
+        for_0(i, n)
+        {
+            if (t[i] == p[j] && !bad[i + 1])
+            {
+                j++;
+            }
+            if (j == m)
+            {
+                found = true;
+                break;
+            }
+        }
+        return found;
     };
 
-    sort(all(v));
-
-    int l = 1, r = 2e9, mid, ans;
+    int l = 1, r = n, mid, ans = 0;
     while (l <= r)
     {
         mid = l + (r - l) / 2;
