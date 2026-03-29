@@ -1,0 +1,1 @@
+{"name":"Local: knapsack","url":"d:\\Problem Solving\\knapsack.cpp","tests":[{"id":1747308312807,"input":"6\n2 1 5 2 4 3\n7 8 14 5 10 15\n8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem Solving\\knapsack.cpp","group":"local","local":true}
